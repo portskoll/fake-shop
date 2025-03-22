@@ -20,7 +20,7 @@ jobs:
         with:
           context: ./src
           push: true
-          file: ./src/Dokerfile
+          file: ./src/Dockerfile
           tags: portskoll/fake-shop-desafio:v2
       
   CD:
