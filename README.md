@@ -4,7 +4,7 @@ Esta aplicação foi criada com o objetivo de ensinar conceitos importantes de *
 
 Ele possue um banco de dados que será criado e configurado automaticamente dentro de um Pod pelo Kubernetes e possue as variaveis de amabiente que você poderá modificar no arquivo k8s\deployment.yaml, esse arquivo possui toda istruções para a criação dos pods, services, deployment e replicasets que são criados pelos kubernetes.
 
-## Variável de Ambiente
+## Variável de Ambiente do banco de dados
 DB_HOST	=> Host do banco de dados PostgreSQL.
 
 DB_USER => Nome do usuário do banco de dados PostgreSQL.
